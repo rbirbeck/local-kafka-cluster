@@ -2,7 +2,7 @@
 
 require 'yaml'
 
-IMAGE = 'andschroeder/local-kafka-cluster'
+IMAGE = 'rbirbeck/local-kafka-cluster'
 
 # default cluster size is 3.
 cluster_size = ARGV.empty? ? 3 : ARGV[0].to_i
